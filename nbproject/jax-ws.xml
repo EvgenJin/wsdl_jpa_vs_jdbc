@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="NewWebServiceFromWSDL">
+      <implementation-class>com.evg_ws.webservice.NewWebServiceFromWSDL</implementation-class>
+      <wsdl-url>file:/C:/Projects/JAVA/wsdl_jpa_vs_jdbc/service_example.wsdl</wsdl-url>
+      <local-wsdl-file>service_example.wsdl</local-wsdl-file>
+      <service-name>BookService</service-name>
+      <port-name>BookServiceSOAP</port-name>
+      <package-name>com.cleverbuilder.bookservice</package-name>
+      <catalog-file>catalog.xml</catalog-file>
+      <use-provider>false</use-provider>
+      <wsimport-options>
+        <wsimport-option>
+          <wsimport-option-name>extension</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>verbose</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>fork</wsimport-option-name>
+          <wsimport-option-value>false</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xnocompile</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xendorsed</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+      </wsimport-options>
+    </service>
+  </services>
+  <clients>
+  </clients>
+  <jsr109>false</jsr109>
+</jax-ws>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/temp/UnderwritingService.wsdl" uri="src/conf/xml-resources/web-services/NewWebServiceFromWSDL/wsdl/UnderwritingService.wsdl"/>
+    <system systemId="file:/C:/Projects/JAVA/wsdl_jpa_vs_jdbc/service_example.wsdl" uri="src/conf/xml-resources/web-services/NewWebServiceFromWSDL/wsdl/service_example.wsdl"/>
+    <system systemId="file:/C:/Projects/JAVA/wsdl_jpa_vs_jdbc/src/conf/xml-resources/web-services/NewWebServiceFromWSDL/wsdl/service_example.wsdl" uri="wsdl/service_example.wsdl"/>
+</catalog>
